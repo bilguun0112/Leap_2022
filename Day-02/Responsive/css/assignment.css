@@ -1,6 +1,31 @@
 .center {
     text-align: center;
     font-size: 20px;
+    margin-top: 50vh;
+}
+
+@media only screen and (min-width: 1400px) {
+    #text-1 {
+        display: none;
+    }
+    #text-3 {
+        display: none;
+    }
+    #text-4 {
+        display: none;
+    }
+    #text-5 {
+        display: none;
+    }
+    #text-2 {
+        display: none;
+    }
+    #text-6 {
+        display: block;
+    }
+    body {
+        background-color: orange;
+    }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -96,6 +121,30 @@
     }
     body {
         background-color: purple;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #text-1 {
+        display: none;
+    }
+    #text-2 {
+        display: block;
+    }
+    #text-3 {
+        display: none;
+    }
+    #text-4 {
+        display: none;
+    }
+    #text-5 {
+        display: none;
+    }
+    #text-6 {
+        display: none;
+    }
+    body {
+        background-color: aqua;
     }
 }
 
