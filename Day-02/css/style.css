@@ -1,0 +1,56 @@
+.search {
+    border: 5px burlywood solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/search1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 5px;
+    transition: ease, width 1s ease-in-out;
+}
+
+.search:focus {
+    width: 500px;
+    border-radius: 100px;
+    padding-left: 60px;
+}
+
+
+/*      Hello World      */
+
+.hello {
+    position: relative;
+}
+
+.hello h1 {
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    background-color: red;
+    text-align: center;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+.hello h1:hover {
+    background-color: gray;
+}
+
+.hello h2 {
+    width: 60px;
+    height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: red;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    left: 120px;
+}
+
+.hello h2:hover {
+    position: absolute;
+    top: -40px;
+    left: 280px;
+}

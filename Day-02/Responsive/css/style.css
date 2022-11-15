@@ -1,0 +1,35 @@
+body {
+    background-color: blue;
+}
+
+.text-container {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-container div {
+    margin: 30px;
+    width: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+        background-color: palegoldenrod;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: coral;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        background-color: aquamarine;
+    }
+    .text-container {
+        flex-direction: column;
+    }
+}
