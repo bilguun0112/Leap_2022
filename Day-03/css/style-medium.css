@@ -1,0 +1,8 @@
+.topnav a {
+    float: none;
+    width: 100%;
+}
+
+.topnav a:hover {
+    color: red;
+}
