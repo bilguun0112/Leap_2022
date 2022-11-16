@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+.text {
+    width: 60%;
+    padding: 10px;
+}
+
+img {
+    width: 40%;
+    height: 200px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #a2a2a2;
+    margin: 0;
+}
+
+span {
+    color: #5ad67d;
+    text-decoration: underline;
+    float: right;
+}
+
+.div {
+    display: flex;
+    box-shadow: 0 0 5px #a2a2a2;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+    .div {
+        flex-direction: column;
+    }
+    .text,
+    img {
+        width: 100%;
+    }
+}
