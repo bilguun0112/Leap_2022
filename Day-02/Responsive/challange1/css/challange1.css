@@ -44,7 +44,7 @@
     flex-direction: row;
     gap: 25px;
 }
-
+/* 
 @media only screen and (max-width: 1024px) {
     .images img {
         width: 30vw;
@@ -65,9 +65,8 @@
     .text1 {
         width: 75vw;
     }
-}
-
-@media only screen and (min-width: 768px) {
+} */
+/* @media only screen and (min-width: 768px) {
     .images {
         justify-content: space-between;
         flex-direction: row;
@@ -76,13 +75,13 @@
         width: 15vw;
         border-radius: 30px;
     }
-}
+} */
 
-@media only screen and (max-width: 340px) {
+/* @media only screen and (max-width: 340px) {
     .images {
         justify-content: center;
     }
     .images img {
         width: 90%;
     }
-}
+} */

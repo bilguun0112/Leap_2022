@@ -1,0 +1,21 @@
+/* @media only screen and (max-width: 1024px) { */
+    .images img {
+        width: 30vw;
+        margin-top: 30px;
+    }
+    .images {
+        flex-wrap: wrap;
+    }
+    .section {
+        flex-direction: column;
+    }
+    .article {
+        width: 100%;
+    }
+    .article1 {
+        width: 90vw;
+    }
+    .text1 {
+        width: 75vw;
+    }
+/* } */

@@ -1,0 +1,8 @@
+.images {
+    justify-content: space-between;
+    flex-direction: row;
+}
+.images img {
+    width: 15vw;
+    border-radius: 30px;
+}
