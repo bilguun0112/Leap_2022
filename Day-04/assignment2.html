@@ -13,17 +13,25 @@
 
 <body>
     <div class="container">
-        <div class="row text-center">
-            <div class="col-1 bg-secondary">
+        <div class="row text-center ">
+            <div class=" col-6 col-sm-4 col-md-4 col-lg-1 bg-secondary">
                 Name
             </div>
-            <div class="col-10 bg-danger">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-10 bg-danger d-none d-sm-block d-md-block d-lg-block">
                 MENUS
             </div>
-            <div class="col-1 bg-info">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-1 bg-info">
                 DropDown
             </div>
         </div>
+
+        <div class="row bg-danger d-sm-none d-md-none d-sm-block text-center">
+            <div>
+                MENUS
+            </div>
+
+        </div>
+
     </div>
     <div class="container mt-2">
         <div class="row text-center">
@@ -127,8 +135,8 @@
         </div>
     </div>
     <div class="container-md bg-info text-center">
-        <div class="row mt-2">
-            <div class="col-md justify-content-start p-2">
+        <div class="row mt-2 d-flex">
+            <div class="col-md justify-content-md-start justify-content-lg-start justify-content-sm-center p-2">
                 <div class="row">
                     <div class="col-md">
                         footer text 1
@@ -138,7 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md text-end p-2">
+            <div class="col-md justify-content-md-center justify-content-lg-end justify-content-md-end p-2">
                 footer text 3
             </div>
         </div>
