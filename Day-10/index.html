@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/main.js"></script>
+    <script src="./js/paper-full.js"></script>
+    <script src="./js/rectangle.js" type="text/paperscript" canvas="myRec"></script>
+    <script src="./js/circle.js" type="text/paperscript" canvas="myCircle"></script>
+    
+    <script type="text/paperscript" canvas="myCanvas">
+        var path = new Path();
+        path.strokeColor = 'black'; 
+        var start = new Point(100, 100); 
+        path.moveTo(start); 
+        path.lineTo(start + [100, -50]); 
+    </script>
+    <!-- <script type="text/paperscript" canvas="myRec">
+        var path = new Path();
+        var topLeft = new Point(5, 5);
+        var rectSize = new Size(200, 100);
+        var rect = new Rectangle(topLeft, rectSize);
+        var path = new Path.Rectangle(rect, 4); 
+        path.fillColor = 'red';
+
+       console.log(rect);
+       console.log(rect.point);
+       console.log(rect.size);
+       rect.strokeColor = 'red';
+    </script> -->
+    <!-- <script type="text/paperscript" canvas="myCircle">
+        var topLeft = new Point(60, 60);
+        var rectSize = new Size(200, 100);
+        var rect = new Rectangle(topLeft, rectSize);
+        var path = new Path.Circle(rect, 50); 
+        path.fillColor = 'red';
+        path.strokeColor = 'blue';
+    </script> -->
+    <title>JS tutorial Day-10
+    </title>
+
+
+</head>
+
+<body>
+    <h1>JS Tutorial</h1>
+
+    <canvas id="myCanvas" resize>
+    </canvas>
+    <canvas id="myRec" resize>
+
+    </canvas>
+    <canvas id="myCircle" resize>
+
+    </canvas>
+
+
+
+</body>
+
+</html>
