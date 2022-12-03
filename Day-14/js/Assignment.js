@@ -26,20 +26,20 @@
 // }
 // console.log(sum);
 
-//2r arga
-let sum = 0;
-let rem = 0;
-// let N = Number(prompt("Gimme number"));
-// while (N > 0) {
-//     rem = N % 10;
-//     sum = sum + rem;
-//     N = Math.floor(N / 10);
-    
+// //2r arga
+// let sum = 0;
+// let rem = 0;
+// // let N = Number(prompt("Gimme number"));
+// // while (N > 0) {
+// //     rem = N % 10;
+// //     sum = sum + rem;
+// //     N = Math.floor(N / 10);
+
 // }
 // console.log(sum);
 
-for (let N = Number(prompt("Gimme number")); N > 0; N = Math.floor(N / 10)) {
-        rem = N % 10;
-        sum = sum + rem;
-    }
-    console.log(sum);
+for (let N = Number(prompt("Gimme number")); N > 0;) {
+    rem = N % 10;
+    sum = sum + rem;
+}
+console.log(sum);
