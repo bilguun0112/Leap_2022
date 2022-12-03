@@ -5,12 +5,13 @@ let avarageB = (Number(B1) + Number(B2) + Number(B3)) / 3;
 
 
 if (avarageA < 100 || avarageB < 100) {
-    console.log('No Winner');
+    alert('No Winner');
 } else if (avarageA == avarageB) {
-    console.log('Draw');
+    alert('Draw');
 } else if (avarageA < avarageB) {
 
-    console.log('Winner B team');
+    alert('Winner B team');
 } else {
-    console.log('Winner A team');
+    alert('Winner A team');
 }
+alert('A');
