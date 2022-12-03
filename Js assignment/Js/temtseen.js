@@ -14,4 +14,3 @@ if (avarageA < 100 || avarageB < 100) {
 } else {
     alert('Winner A team');
 }
-alert('A');
