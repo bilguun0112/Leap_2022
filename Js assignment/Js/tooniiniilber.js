@@ -7,4 +7,4 @@ for (; N > 0;) {
     sum = R + N;
 
 }
-console.log(sum);
+alert(sum);
