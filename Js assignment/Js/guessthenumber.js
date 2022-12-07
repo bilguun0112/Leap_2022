@@ -1,7 +1,7 @@
-const randomNumber = Math.floor((Math.random() * 10));
-alert('1 - 10 hoorond too taana uu?')
+const randomNumber = Math.floor((Math.random() * 100));
+alert('1 - 100 hoorond too taana uu?')
 
-console.log(randomNumber);
+alert(randomNumber);
 
 let n = Number(prompt('Guess Number'));
 
