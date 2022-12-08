@@ -4,15 +4,17 @@ let lowerLetter = 'a';
 
 const array = input.split(" ");
 
+console.log(input);
+// console.log(input.charAt(0).toLowerCase());
 
-for (var i = 0; i < array.length; i++) {
-    if (array[i].charAt(0) === upperLetter) {
-        array[i] = array[i].charAt(0).toLowerCase() + array[i].slice(1);
+for (var i = 0; i <= input.length; i++) {
+    debugger;
+    if (input.charAt(i) === upperLetter) {
+        input = input.charAt(i).toLowerCase();
     } else
-    //  if (array[i].charAt(0) === lowerLetter) 
-    {
-        array[i] = array[i].charAt(0).toUpperCase() + array[i].slice(1);
+    if (input.charAt(i) === lowerLetter) {
+        input = input.charAt(i).toUpperCase();
     }
 }
-let output = array.join(" ");
-console.log(output);
+
+console.log(input);
