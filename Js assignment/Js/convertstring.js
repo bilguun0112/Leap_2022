@@ -1,5 +1,7 @@
-let input = prompt('Hello World');
+// let input = prompt('Hello World');
+let input = "Hello"
 let upperLetter = 'A';
+console.log('upper => ', typeof upperLetter);
 let lowerLetter = 'a';
 
 const array = input.split(" ");
